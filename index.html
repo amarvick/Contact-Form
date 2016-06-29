@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Contact Form + E-mail Validation</title>
+
+	<meta http-equiv="Content-type" content="text/html, charset=utf-8">
+	<meta name="viewport" content="width:device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.2.js"></script>
+	<script src="script.js"></script>
+
+</head>
+
+
+<body>
+	<div id="contact-container">
+		<div id="wrapper">
+
+			<h2>Please fill out your information below.</h2>
+
+			<div id="errorWrapper">
+				<p id="errorMessage"></p>
+			</div>
+
+			<label>First Name:</label>
+			<input class="text" id="firstName" type="text" name="firstName">
+
+			<label>Last Name:</label>
+			<input class="text" id="lastName" type="text" name="lastName">
+
+			<label>E-mail:</label>
+			<input class="text" id="email" type="text" name="email">
+			
+			<label>Username:</label>
+			<input class="text" id="username" type="text" name="username">
+			
+			<label>Password:</label>
+			<input class="text" id="password" type="password" name="password">
+			
+			<label>Confirm:</label>
+			<input class="text" id="confirmPassword" type="password" name="confirmPassword">
+
+			<input id="submitButton" type="submit" value="Sign Up">
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+body {
+
+    background: #e6fff7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#e6fff7, #66ffcf); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e6fff7, #66ffcf); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e6fff7, #66ffcf); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e6fff7, #66ffcf); /* Standard syntax */
+}
+
+#contact-container {
+	margin: 60px auto 60px auto;
+
+	padding: 10px;
+
+	border-radius: 20px;
+	height: 100%;
+	width: 70%;
+
+	background: white;
+
+	font-family: arial, helvetica, sans-serif;
+	text-align: center;
+	color: #009966;
+}
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 320px;
+}
+
+#errorWrapper {
+	background: #80ffaa; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#66ffcf, #80ffaa); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#66ffcf, #80ffaa); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#66ffcf, #80ffaa); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#66ffcf, #80ffaa); /* Standard syntax */
+
+    border-radius: 7px;
+}
+
+label {
+	position: relative;
+	top: -22px;
+
+	display: inline;
+	margin-top: 44px;
+
+	float: left;
+}
+
+.text {
+	display: inline;
+
+	height: 16px;
+	width: 180px;
+
+	margin: 20px;
+	float: right;
+}
+
+#submitButton {
+	background-color: #80ffaa;
+
+	margin-top: 25px;
+
+	height: 30px;
+	width: 100px;
+
+	border-radius: 5px;
+	border: 1px solid #66ffcf;
+
+	font-size: 15px;
+
+}
